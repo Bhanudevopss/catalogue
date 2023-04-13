@@ -5,13 +5,13 @@ pipeline {
 
   stages {
 
-    stage('Compile/Build'){
+    stage('Compile/Build') {
       steps {
         echo 'Compile/Build'
       }
     }
 
-    stage('Test Cases'){
+    stage('Test Cases') {
        steps {
          echo 'Test Cases'
        }
@@ -19,3 +19,4 @@ pipeline {
 
   }
 }
+
